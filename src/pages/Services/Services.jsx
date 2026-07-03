@@ -6,7 +6,7 @@ import performance from "../../performance.json";
 
 const Services = () => {
     return (
-        <div id='services' className='mt-16 lg:mt-32 text-center lg:text-left'>
+        <div id='services' className='mt-16 lg:mt-32 text-center lg:text-left scroll-mt-48'>
             <h2 className='font-bold text-3xl lg:text-4xl text-center mb-12 lg:mb-16 border-b-4 border-warning w-[210px] mx-auto'>My Services</h2>
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-8'>
                 <div className='border-2 px-2 lg:px-6 py-2 lg:py-4 rounded-lg service-card lg:hover:scale-[1.07] lg:hover:duration-900 lg:hover:border-[#10B981]'>

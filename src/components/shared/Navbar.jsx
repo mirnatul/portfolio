@@ -65,13 +65,13 @@ const Navbar = () => {
             <div className="navbar-end lg:pr-8 hidden md:flex">
                 <ul className="flex gap-4 items-center">
                     <li className='bg-[#10B981] text-white p-3 px-6 rounded-xl font-bold border border-slate-600'><Link to='#contact' className='orbit-btn'>Hire Me</Link></li>
-                    <li className='pt-1'>
+                    {/* <li className='pt-1'>
                         <label className="swap swap-rotate">
                             <input type="checkbox" onChange={handleToggle} />
                             {theme === 'light' && <BsMoon className='text-slate-600 w-9 h-9 lg:w-9 lg:h-9'></BsMoon>}
                             {theme === 'dark' && <BsSun className='fill-current w-9 h-9 lg:w-9 lg:h-9'></BsSun>}
                         </label>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </div>

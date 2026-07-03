@@ -26,7 +26,7 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='mt-16 lg:mt-32 text-center lg:text-left mb-16'>
+        <div id='contact' className='mt-16 lg:mt-32 text-center lg:text-left mb-16 scroll-mt-48'>
             <h2 className='font-bold text-3xl lg:text-4xl text-center mb-12 lg:mb-16 border-b-4 border-warning w-[210px] mx-auto'>Contact Me</h2>
 
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 lg:gap-20'>

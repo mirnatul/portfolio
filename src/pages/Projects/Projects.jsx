@@ -12,7 +12,7 @@ import scroll from '../../scroll.json'
 
 const Projects = () => {
     return (
-        <div id='projects' className='mt-16 lg:mt-32 text-center lg:text-left'>
+        <div id='projects' className='mt-16 lg:mt-32 text-center lg:text-left scroll-mt-44'>
             <h2 className='font-bold text-3xl lg:text-4xl text-center mb-12 lg:mb-16 border-b-4 border-warning w-[210px] mx-auto'>My Projects</h2>
 
             <div className='grid lg:grid-cols-3 grid-cols-1 gap-8'>
