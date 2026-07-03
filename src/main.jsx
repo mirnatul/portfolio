@@ -17,8 +17,8 @@ import Home from './pages/Home/Home/Home';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='px-4 lg:mx-2'>
-      <div className='max-w-[1400px] mx-auto'>
+    <div className='px-0 lg:mx-2'>
+      <div className='mx-auto'>
         {/* <RouterProvider router={router} /> */}
         <Home></Home>
       </div>

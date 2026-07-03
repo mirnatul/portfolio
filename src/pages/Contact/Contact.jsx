@@ -34,17 +34,17 @@ const Contact = () => {
                     <h2 className='text-lg lg:text-2xl mb-8 border-b-2 w-[200px] lg:w-[270px] mx-auto lg:mx-0' style={{ fontWeight: 900 }}>Contact Information</h2>
                     <p>Let's talk how I can help you to grow your business. I appreciate any kind of suggestions or feedback.</p>
                     <div className='grid lg:grid-cols-3 grid-cols-1 text-center gap-2 mt-8'>
-                        <div className='border-2 p-3 lg:border-[#FBBD23] rounded-md'>
+                        <div className='border-2 p-3 lg:border-[#10B981] rounded-md'>
                             <FaPhoneAlt className='mx-auto mt-1 mb-3' size={24}></FaPhoneAlt>
                             <h3 className='text-lg' style={{ fontWeight: 700 }}>Phone</h3>
                             <p>+880 1763199000</p>
                         </div>
-                        <div className='border-2 p-3 lg:border-[#FBBD23] rounded-md'>
+                        <div className='border-2 p-3 lg:border-[#10B981] rounded-md'>
                             <MdEmail className='mx-auto mt-1 mb-3' size={24}></MdEmail>
                             <h3 className='text-lg' style={{ fontWeight: 700 }}>Email</h3>
                             <p className='text-md'>mdmirnatul@gmail.com</p>
                         </div>
-                        <div className='border-2 p-3 lg:border-[#FBBD23] rounded-md'>
+                        <div className='border-2 p-3 lg:border-[#10B981] rounded-md'>
                             <FaAddressBook className='mx-auto mt-1 mb-3' size={24}></FaAddressBook>
                             <h3 className='text-lg' style={{ fontWeight: 700 }}>Address</h3>
                             <p>Dhaka, Bangladesh</p>
@@ -62,17 +62,17 @@ const Contact = () => {
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='grid grid-cols-2 gap-2 lg:gap-5 my-2 lg:my-6'>
                             <div className=''>
-                                <input type="text" name="from_name" id="" placeholder='Your Name...' className='w-full p-4 border-[1px] border-[#FBBD23] rounded-md' />
+                                <input type="text" name="from_name" id="" placeholder='Your Name...' className='w-full p-4 border-[1px] border-[#10B981] rounded-md' />
                             </div>
                             <div className=''>
-                                <input type="email" name="from_email" id="" placeholder='Your Email...' className='w-full p-4 border-[1px] border-[#FBBD23] rounded-md' />
+                                <input type="email" name="from_email" id="" placeholder='Your Email...' className='w-full p-4 border-[1px] border-[#10B981] rounded-md' />
                             </div>
                         </div>
                         <div className='my-3 lg:my-6'>
-                            <input type="text" name="from_subject" id="" placeholder='Email Subject...' className='w-full p-4 border-[1px] border-[#FBBD23] rounded-md' />
+                            <input type="text" name="from_subject" id="" placeholder='Email Subject...' className='w-full p-4 border-[1px] border-[#10B981] rounded-md' />
                         </div>
                         <div className='mt-3 lg:mt-6 mb-4'>
-                            <textarea name="message" id="" placeholder='Write your message here...' rows={5} className='w-full p-4 border-[1px] border-[#FBBD23] rounded-md'></textarea>
+                            <textarea name="message" id="" placeholder='Write your message here...' rows={5} className='w-full p-4 border-[1px] border-[#10B981] rounded-md'></textarea>
                         </div>
                         <div className='text-center'>
                             <input type="submit" value="Send Email" className='btn btn-warning' />

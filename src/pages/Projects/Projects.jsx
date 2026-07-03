@@ -25,24 +25,24 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='text-left p-2'>
-                        <h3 className='mt-5 mb-3'><span className='text-xl font-bold underline decoration-[#FBBD23] decoration-4'>summerSports</span> - a summer camp programme management system</h3>
+                        <h3 className='mt-5 mb-3'><span className='text-xl font-bold underline decoration-[#10B981] decoration-4'>summerSports</span> - a summer camp programme management system</h3>
                         <p><span className='text-lg'>Technologies</span>: ReactJS | NodeJS | ExpressJS | Tailwind CSS | Firebase | MongoDB | React Hook Form | Vercel | Srtipe | Axios</p>
                         <div className='flex justify-center items-center gap-4 lg:gap-6 mt-4'>
-                            <a href='https://summer-sports.netlify.app/' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://summer-sports.netlify.app/' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><FaRegEye size={28}></FaRegEye></p>
                                 <p>Live</p>
                             </a>
-                            <a href='https://github.com/mirnatul/summer-camp-client' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://github.com/mirnatul/summer-camp-client' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><AiFillGithub size={28}></AiFillGithub></p>
                                 <p>Client</p>
                             </a>
-                            <a href='https://github.com/mirnatul/summer-camp-server' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://github.com/mirnatul/summer-camp-server' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><AiFillGithub size={28}></AiFillGithub></p>
                                 <p>Server</p>
                             </a>
                         </div>
                         <div className='flex justify-center mr-[17px] mt-3'>
-                            <a onClick={() => window.my_modal_1.showModal()} className='flex justify-center items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black w-[110px]'>
+                            <a onClick={() => window.my_modal_1.showModal()} className='flex justify-center items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black w-[110px]'>
                                 <p><BiSolidDetail size={28}></BiSolidDetail></p>
                                 <p>Details</p>
                             </a>
@@ -58,24 +58,24 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='text-left p-2'>
-                        <h3 className='mt-5 mb-3'><span className='text-xl font-bold underline decoration-[#FBBD23] decoration-4'>Carz Zone</span> - buy and sell your toy</h3>
+                        <h3 className='mt-5 mb-3'><span className='text-xl font-bold underline decoration-[#10B981] decoration-4'>Carz Zone</span> - buy and sell your toy</h3>
                         <p><span className='text-lg'>Technologies</span>: ReactJS | NodeJS | ExpressJS | Tailwind CSS | Firebase | MongoDB | React Hook Form</p>
                         <div className='flex justify-center items-center gap-4 lg:gap-6 mt-4'>
-                            <a href='https://carz-zone-dbd73.web.app/' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://carz-zone-dbd73.web.app/' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><FaRegEye size={28}></FaRegEye></p>
                                 <p>Live</p>
                             </a>
-                            <a href='https://github.com/Li-Pon/carz-zone-client' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://github.com/Li-Pon/carz-zone-client' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><AiFillGithub size={28}></AiFillGithub></p>
                                 <p>Client</p>
                             </a>
-                            <a href='https://github.com/Li-Pon/carz-zone-server' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://github.com/Li-Pon/carz-zone-server' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><AiFillGithub size={28}></AiFillGithub></p>
                                 <p>Server</p>
                             </a>
                         </div>
                         <div className='flex justify-center mr-[17px] mt-3'>
-                            <a onClick={() => window.my_modal_2.showModal()} className='flex justify-center items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black w-[110px]'>
+                            <a onClick={() => window.my_modal_2.showModal()} className='flex justify-center items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black w-[110px]'>
                                 <p><BiSolidDetail size={28}></BiSolidDetail></p>
                                 <p>Details</p>
                             </a>
@@ -90,24 +90,24 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='text-left p-2'>
-                        <h3 className='mt-5 mb-3'><span className='text-xl font-bold underline decoration-[#FBBD23] decoration-4'>Squad</span> - a task board management</h3>
+                        <h3 className='mt-5 mb-3'><span className='text-xl font-bold underline decoration-[#10B981] decoration-4'>Squad</span> - a task board management</h3>
                         <p><span className='text-lg'>Technologies</span>: React.js | Node.js | Express.js | MongoDB | Firebase | Vercel | Tailwind CSS</p>
                         <div className='flex justify-center items-center gap-4 lg:gap-6 mt-4'>
-                            <a href='https://squad-e7252.web.app/' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://squad-e7252.web.app/' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><FaRegEye size={28}></FaRegEye></p>
                                 <p>Live</p>
                             </a>
-                            <a href='https://github.com/Li-Pon/squad-client' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://github.com/Li-Pon/squad-client' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><AiFillGithub size={28}></AiFillGithub></p>
                                 <p>Client</p>
                             </a>
-                            <a href='https://github.com/Li-Pon/squad-server' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black'>
+                            <a href='https://github.com/Li-Pon/squad-server' target={'_blank'} className='flex items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black'>
                                 <p><AiFillGithub size={28}></AiFillGithub></p>
                                 <p>Server</p>
                             </a>
                         </div>
                         <div className='flex justify-center mr-[17px] mt-3'>
-                            <a onClick={() => window.my_modal_3.showModal()} className='flex justify-center items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#FBBD23] hover:text-black w-[110px]'>
+                            <a onClick={() => window.my_modal_3.showModal()} className='flex justify-center items-center gap-2 border-2 px-2 py-[6px] rounded-md cursor-pointer hover:bg-[#10B981] hover:text-black w-[110px]'>
                                 <p><BiSolidDetail size={28}></BiSolidDetail></p>
                                 <p>Details</p>
                             </a>

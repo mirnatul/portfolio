@@ -11,6 +11,7 @@ import Skills from '../../Skills/Skills';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import BannerBackground from '../../Banner/BannerBackground';
 // ..
 AOS.init();
 
@@ -18,27 +19,36 @@ const Home = () => {
     return (
         <BrowserRouter>
             <div>
-                <Navbar></Navbar>
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <Banner></Banner>
+                <div className='sticky top-0 z-50 bg-base-100 border-b-2 border-[#10B981]'>
+                    <div className='max-w-[1500px] px-4 mx-auto '>
+                        <Navbar></Navbar>
+                    </div>
                 </div>
                 <div data-aos="fade-up" data-aos-duration="1000">
-                    <About></About>
+                    <BannerBackground></BannerBackground>
+                    {/* <Banner></Banner> */}
+                    {/* hello */}
+
                 </div>
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <Skills></Skills>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <Services></Services>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <Projects></Projects>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <Contact></Contact>
-                </div>
-                <div data-aos="fade-up" data-aos-duration="1000">
-                    <Footer></Footer>
+                <div className='max-w-[1400px] px-4 mx-auto'>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <About></About>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <Skills></Skills>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <Services></Services>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <Projects></Projects>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <Contact></Contact>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <Footer></Footer>
+                    </div>
                 </div>
             </div>
         </BrowserRouter>
