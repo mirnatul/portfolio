@@ -9,23 +9,17 @@ import { RiFacebookLine } from "react-icons/ri";
 
 const Banner = () => {
 
-    const onButtonClick = () => {
-        fetch('mirnatul-mern-resume.pdf')
-            .then(response => {
-                response.blob()
-                    .then(blob => {
-                        const fileURL = window.URL.createObjectURL(blob);
-                        let alink = document.createElement('a')
-                        alink.href = fileURL;
-                        alink.download = 'mirnatul-mern-resume.pdf'
-                        alink.click();
-                    })
-            })
-    }
+    // const onButtonClick = () => {
+    //     const link = document.createElement("a");
+    //     link.href = "/resume.pdf"; // file in public folder
+    //     link.download = "Md_Mirnatul_Islam_Resume.pdf"; // 👈 custom filename
+    //     document.body.appendChild(link);
+    //     link.click();
+    //     document.body.removeChild(link);
+    // };
 
     return (
         <div id='home' className='text-center lg:text-left lg:mt-20 mt-6 mx-2 lg:pt-28 lg:py-16 scroll-mt-44'>
-            {/* <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-[2fr_1fr] gap-8 items-center'> */}
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center'>
                 <div className='mb-6 lg:mb-0'>
                     <p className='text-normal lg:text-lg'>Hi, I am</p>
@@ -46,12 +40,22 @@ const Banner = () => {
                     </h2>
                     <p className='text-md lg:text-2xl font-normal mb-8'>Full-stack developer skilled in MERN stack, building responsive UIs and REST APIs with JavaScript, HTML, and CSS. Expanding expertise in TypeScript, Next.js, PostgreSQL, and Prisma for scalable web applications.</p>
                     <div className='flex flex-col md:flex-row gap-4 justify-center lg:justify-start'>
-                        <button
-                            onClick={onButtonClick}
+                        <a
+                            href="/resume.pdf" download="My_Resume.pdf"
                             className="bg-[#10B981] border border-slate-900 text-white font-bold px-8 py-4 rounded-md flex items-center gap-2 leading-none"
                         >
                             Download Resume <BiDownload size={26} />
-                        </button>
+                            {/* view */}
+                            <a
+                                href="https://drive.google.com/file/d/16N7bGnavKI0NSRKi7PX_dL5HRv3T7_fi/view?usp=sharing"
+                                target="_blank"
+                                rel="noreferrer"
+                                className="bg-white border border-slate-900 text-black font-bold px-3 py-2 rounded-md flex items-center gap-2 leading-none"
+                            >
+                                View
+                            </a>
+                        </a>
+
                         <button
                             className="bg-green-50 border border-slate-900 text-[#10B981] font-bold px-8 py-4 rounded-md flex items-center gap-2 leading-none"
                         >

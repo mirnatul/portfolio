@@ -46,10 +46,10 @@ const Navbar = () => {
                     </ul>
                 </div>
                 {/* <a className="font-bold text-4xl"><img className='lg:w-[240px] w-[130px]' src={theme === 'light' ? logoLight : logoDark} alt="" /></a> */}
-                <div className='flex items-center gap-3 flex-shrink-0'>
+                <Link to="#home" className='flex items-center gap-3 flex-shrink-0'>
                     <img className='w-12 animate-spin [animation-duration:7s]' src="logo.png" alt="" />
                     <a className="font-extrabold text-3xl md:text-5xl text-[#10B981] [-webkit-text-stroke:1px_black]">Mirnatul .</a>
-                </div>
+                </Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
