@@ -7,7 +7,6 @@ const About = () => {
     return (
         <div id='about' className="scroll-mt-48">
             <div className='mt-16 lg:mt-32 text-center lg:text-left'>
-                {/* <h2 className='font-bold text-3xl lg:text-4xl text-center mb-0 lg:mb-16 border-b-4 border-[#10B981] w-[170px] mx-auto'>About Me</h2> */}
                 <h2 className='text-[#10B981] [-webkit-text-stroke:1px_black] font-bold text-3xl lg:text-5xl text-center mb-0 lg:mb-16 mx-auto'>About Me .</h2>
                 <div className='grid grid-cols-1 lg:grid-cols-3 gap-0 items-center'>
                     <div className='mx-auto'><Lottie animationData={aboutImageLight} loop={true} /></div>
@@ -18,7 +17,11 @@ const About = () => {
                         <p className='leading-7 lg:leading-9 text-md lg:text-xl text-justify'>Feel free to explore my projects and download my resume to learn more about my work and experience.</p>
                     </div>
                 </div>
-                <h3 className=' mt-6 lg:mt-12 mb-4 font-semibold md:text-2xl text-[#10B981]'>Beyond Code</h3>
+
+                <div className='mt-6 lg:mt-12 mb-6 flex items-center'>
+                    <div className='w-8 h-1 bg-[#10B981] rounded-full mr-4'></div>
+                    <h3 className='font-semibold md:text-2xl text-[#10B981]'>Beyond Code</h3>
+                </div>
                 <div className='grid grid-cols-1 lg:grid-cols-3 items-center text-justify gap-3'>
                     <div className='border rounded-lg p-6 shadow-md'>
                         <h2 className='text-lg md:text-2xl font-bold mb-2'>Cricket</h2>
