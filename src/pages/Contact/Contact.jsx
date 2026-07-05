@@ -3,6 +3,10 @@ import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 import { FaPhoneAlt, FaAddressBook, FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { MdEmail } from 'react-icons/md'
+import { FiGithub } from 'react-icons/fi';
+import { CiLinkedin, CiMail } from 'react-icons/ci';
+import { RxTwitterLogo } from 'react-icons/rx';
+import { RiFacebookLine } from 'react-icons/ri';
 
 const Contact = () => {
 
@@ -26,8 +30,8 @@ const Contact = () => {
     };
 
     return (
-        <div id='contact' className='mt-16 lg:mt-32 text-center lg:text-left mb-16 scroll-mt-48'>
-            <h2 className='font-bold text-3xl lg:text-4xl text-center mb-12 lg:mb-16 border-b-4 border-warning w-[210px] mx-auto'>Contact Me</h2>
+        <div id='contact' className='mt-16 lg:mt-32 text-center lg:text-left mb-16 scroll-mt-4'>
+            <h2 className='text-[#10B981] [-webkit-text-stroke:1px_black] font-bold text-3xl lg:text-5xl text-center mb-6 lg:mb-24 mx-auto'>Contact Me .</h2>
 
             <div className='grid lg:grid-cols-2 grid-cols-1 gap-10 lg:gap-20'>
                 <div>
@@ -50,12 +54,27 @@ const Contact = () => {
                             <p>Dhaka, Bangladesh</p>
                         </div>
                     </div>
-                    <h2 className='text-lg lg:text-2xl mx-auto mt-10 lg:mt-24 text-center' style={{ fontWeight: 900 }}>Connect Me With...</h2>
-                    <div className='flex justify-center gap-10 mt-6'>
-                        <FaFacebook size={46}></FaFacebook>
-                        <FaGithub size={46}></FaGithub>
-                        <FaLinkedin size={46}></FaLinkedin>
-                        <FaTwitter size={46}></FaTwitter>
+                    <h2 className='text-lg lg:text-2xl mx-auto mt-6 lg:mt-20 text-center' style={{ fontWeight: 800 }}>Connect Me With...</h2>
+                    <div className="mt-10 flex justify-center items-center gap-4 md:gap-8 relative z-50">
+                        <a href="https://github.com/mirnatul" target="_blank" rel="noopener noreferrer">
+                            <FiGithub size={36} className="hover:text-gray-600" />
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/mdmirnatulislam/" target="_blank" rel="noopener noreferrer">
+                            <CiLinkedin size={36} className="hover:text-blue-600" />
+                        </a>
+
+                        <a href="https://x.com/mirnatul_lipon" target="_blank" rel="noopener noreferrer">
+                            <RxTwitterLogo size={36} className="hover:text-blue-600" />
+                        </a>
+
+                        <a href="https://www.facebook.com/mirnatulislam.lipon/" target="_blank" rel="noopener noreferrer">
+                            <RiFacebookLine size={36} className="hover:text-blue-600" />
+                        </a>
+
+                        <a href="mailto:mdmirnatul@gmail.com?subject=Hello&body=I%20want%20to%20contact%20you">
+                            <CiMail size={36} className="hover:text-red-600" />
+                        </a>
                     </div>
                 </div>
                 <div>
@@ -75,12 +94,12 @@ const Contact = () => {
                             <textarea name="message" id="" placeholder='Write your message here...' rows={5} className='w-full p-4 border-[1px] border-[#10B981] rounded-md'></textarea>
                         </div>
                         <div className='text-center'>
-                            <input type="submit" value="Send Email" className='btn btn-warning' />
+                            <input type="submit" value="Send Email" className='btn bg-[#10B981] text-white font-bold' />
                         </div>
                     </form>
                     <div className="divider my-3 lg:my-6">OR</div>
                     <div className='text-center'>
-                        <h2 className='text-lg lg:text-xl'>Don't like form? Send me an <a href='mailto:mdmirnatulislam@gmail.com' className='text-warning underline cursor-pointer text-2xl lg:text-3xl'>Email.</a></h2>
+                        <h2 className='text-lg lg:text-xl'>Don't like form? Send me an <a href='mailto:mdmirnatulislam@gmail.com' className='text-[#10B981] underline cursor-pointer font-bold text-2xl lg:text-3xl'>Email.</a></h2>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,6 @@
 import React from 'react';
+
+// frontend
 import html from '../../assets/skill_logo/html.png'
 import css from '../../assets/skill_logo/css.png'
 import js from '../../assets/skill_logo/js.png'
