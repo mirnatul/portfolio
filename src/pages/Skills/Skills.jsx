@@ -32,6 +32,7 @@ import netlify from '../../assets/skill_logo/netlify.png'
 import vercel from '../../assets/skill_logo/vercel.png'
 import figma from '../../assets/skill_logo/figma.svg'
 import npm from '../../assets/skill_logo/npm.svg'
+import TechBlock from '../Projects/TechBlock';
 
 
 const Skills = () => {

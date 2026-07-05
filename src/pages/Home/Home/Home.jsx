@@ -12,6 +12,7 @@ import Skills from '../../Skills/Skills';
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import BannerBackground from '../../Banner/BannerBackground';
+import Education from '../../Education/Education';
 // ..
 AOS.init();
 
@@ -36,6 +37,9 @@ const Home = () => {
                     </div>
                     <div data-aos="fade-up" data-aos-duration="1000">
                         <Skills></Skills>
+                    </div>
+                    <div data-aos="fade-up" data-aos-duration="1000">
+                        <Education></Education>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="1000">
                         <Services></Services>
