@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react';
-// import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
-import logoLight from '../../assets/logo-light.png'
-import logoDark from '../../assets/logo-dark.png'
-import { BsSun, BsMoon } from 'react-icons/bs'
 
 const Navbar = () => {
     const [theme, setTheme] = useState(localStorage.getItem('theme') ? localStorage.getItem('theme') : 'light')

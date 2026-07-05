@@ -46,9 +46,9 @@ const Home = () => {
                     <div data-aos="fade-up" data-aos-duration="1000">
                         <Contact></Contact>
                     </div>
-                    <div data-aos="fade-up" data-aos-duration="1000">
-                        <Footer></Footer>
-                    </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="1000">
+                    <Footer></Footer>
                 </div>
             </div>
         </BrowserRouter>

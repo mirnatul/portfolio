@@ -9,15 +9,6 @@ import { RiFacebookLine } from "react-icons/ri";
 
 const Banner = () => {
 
-    // const onButtonClick = () => {
-    //     const link = document.createElement("a");
-    //     link.href = "/resume.pdf"; // file in public folder
-    //     link.download = "Md_Mirnatul_Islam_Resume.pdf"; // 👈 custom filename
-    //     document.body.appendChild(link);
-    //     link.click();
-    //     document.body.removeChild(link);
-    // };
-
     return (
         <div id='home' className='text-center lg:text-left lg:mt-20 mt-6 mx-2 lg:pt-28 lg:py-16 scroll-mt-44'>
             <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 items-center'>
